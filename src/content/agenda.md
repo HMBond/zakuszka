@@ -4,7 +4,7 @@ TBA
 
 ## past events
 
-![Zakuszka](../../public/banner-o-casey-s.png)
+![Zakuszka](./assets/banner-o-casey-s.png)
 
 Juli 8, 2023
 **O'casey's**
