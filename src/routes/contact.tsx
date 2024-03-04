@@ -5,7 +5,7 @@ export default function ContactForm() {
     <main>
       <h1 class="contact">Get in contact with us!</h1>
       <form
-        action="mailto:ceesvdgeer@gmail.com"
+        action="mailto:kweesie@hotmail.com"
         method="get"
         enctype="text/plain"
       >
@@ -15,7 +15,7 @@ export default function ContactForm() {
         </label>
         <label>
           Email
-          <input type="email" name="email" placeholder="example@mail.com" />
+          <input type="email" name="email" placeholder="example@domain.com" />
         </label>
         <label>
           Message
