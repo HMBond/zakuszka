@@ -1,40 +1,122 @@
-body {
-  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+html {
+  font-size: min(2vw, 16px);
 }
 
-a {
-  margin-right: 1rem;
+body {
+  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  background: url("background.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 420px) {
+  body {
+    font-size: 1.8rem;
+  }
 }
 
 main {
-  text-align: center;
-  padding: 1em;
   margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  width: min(100vw, 1000px);
+}
+
+h1,
+h2 {
+  color: #d80032;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.1;
+  transform: skew(15deg);
+  text-shadow: 2px 1px white;
 }
 
 h1 {
-  color: #335d92;
-  text-transform: uppercase;
-  font-size: 4rem;
-  font-weight: 100;
-  line-height: 1.1;
-  margin: 4rem auto;
-  max-width: 14rem;
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1.index {
+  margin: 12rem auto;
+}
+
+h1.contact {
+  font-size: 3rem;
+  margin: 8rem auto;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  background-color: white;
+  padding: 4rem;
+}
+
+label {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 8ch 1fr;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  width: calc(100% - 8px);
+}
+
+input[type="submit"] {
+  margin-left: auto;
+}
+
+textarea {
+  width: calc(100% - 8px);
+  min-height: 10rem;
 }
 
 p {
-  max-width: 14rem;
   margin: 2rem auto;
   line-height: 1.35;
 }
 
-@media (min-width: 480px) {
-  h1 {
-    max-width: none;
-  }
+.markdown-body {
+  background-color: white;
+  padding: 0.2rem 2rem;
+}
 
-  p {
-    max-width: none;
+.markdown-body img {
+  max-height: 20rem;
+}
+
+.instagram-media {
+  background: #fff;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 540px;
+  min-width: 326px;
+  border-radius: 0;
+}
+
+@media (max-width: 420px) {
+  .instagram-media {
+    transform: scale(0.8);
   }
+}
+
+footer {
+  background: white;
+  padding: 2rem;
+}
+
+footer img {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
 }

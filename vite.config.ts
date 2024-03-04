@@ -1,7 +1,8 @@
-import solid from "solid-start/vite";
 import netlify from "solid-start-netlify";
+import { default as solid } from "solid-start/vite";
 import { defineConfig } from "vite";
+import md from "vite-plugin-solid-markdown";
 
 export default defineConfig({
-  plugins: [solid({ adapter: netlify() })],
+  plugins: [md(), solid({ adapter: netlify(), extensions: [".mdx", ".md"] })],
 });
