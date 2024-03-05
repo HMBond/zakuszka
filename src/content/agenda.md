@@ -2,6 +2,8 @@
 
 TBA
 
+---
+
 ## past events
 
 ![Zakuszka](./assets/banner-o-casey-s.png)

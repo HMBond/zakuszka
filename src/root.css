@@ -5,7 +5,7 @@ html {
 body {
   font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
-  background: url(background.jpg);
+  background: url(background.jpg), url(assets/background.jpg);
   background-color: black;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -24,41 +24,29 @@ main {
   margin: 0 auto;
   display: grid;
   gap: 2rem;
-  width: min(100vw, 1000px);
+  width: min(100vw, 1024px);
 }
 
 h1,
 h2 {
-  color: #d80032;
+  color: #f60;
   text-transform: uppercase;
   font-weight: 900;
   line-height: 1.1;
-  transform: skew(15deg);
-  text-shadow: 2px 1px white;
 }
 
 h1 {
   font-size: 6rem;
+  margin: 14rem auto;
 }
 
 h2 {
   font-size: 2rem;
 }
 
-h1.index {
-  margin: 12rem auto;
-}
-
-h1.contact {
-  font-size: 3rem;
-  margin: 8rem auto;
-}
-
 form {
   display: grid;
   gap: 1rem;
-  background-color: white;
-  padding: 4rem;
 }
 
 label {
@@ -86,9 +74,41 @@ p {
   line-height: 1.35;
 }
 
+hr {
+  margin: 3rem;
+  border: none;
+  outline: solid 1px lightgrey;
+}
+
+footer {
+  background: white;
+  padding: 2rem;
+}
+
+footer img {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.banner {
+  max-width: min(80vw, 1024px);
+  margin: 4rem auto;
+}
+
+.banner-small {
+  max-width: min(40vw, 350px);
+  margin: 4rem;
+}
+
+.card {
+  background-color: white;
+  padding: 4rem;
+}
+
 .markdown-body {
   background-color: white;
-  padding: 0.2rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .markdown-body img {
@@ -108,15 +128,4 @@ p {
   .instagram-media {
     transform: scale(0.8);
   }
-}
-
-footer {
-  background: white;
-  padding: 2rem;
-}
-
-footer img {
-  display: block;
-  width: 100%;
-  margin-bottom: 2rem;
 }
