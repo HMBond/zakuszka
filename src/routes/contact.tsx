@@ -18,14 +18,11 @@ export default function ContactForm() {
           action="mailto:kweesie@hotmail.com"
           method="get"
           enctype="text/plain"
+          target="_blank"
         >
           <label>
             Subject
             <input name="subject" type="text" placeholder="Hi Zakuszka!" />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="example@domain.com" />
           </label>
           <label>
             Message
