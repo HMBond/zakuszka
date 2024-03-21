@@ -1,7 +1,6 @@
-import { A } from "@solidjs/router";
 import { Title } from "solid-start";
-import bandImage from "../../public/assets/zakuszka-band-pic.jpg";
-import zakuszkaSvg from "../../public/assets/zakuszka-banner.svg";
+import IconLink from "~/components/IconLink";
+import zakuszkaSvg from "../assets/zakuszka-banner.svg";
 import Agenda from "../content/agenda.md";
 import Introduction from "../content/introduction.md";
 
@@ -22,8 +21,11 @@ export default function Home() {
       <Introduction />
       <Agenda />
       <footer>
-        <img src={bandImage} alt="Band members group photo" />
-        Get in <A href="/contact">contact</A> with us!
+        <IconLink
+          href="https://www.instagram.com/zakuszka.live/"
+          iconPath="/assets/icons/instagram.svg"
+          label="Instagram"
+        />
       </footer>
     </main>
   );

@@ -1,0 +1,15 @@
+a.icon-link {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.icon-link-icon {
+  height: 22px;
+  width: 22px;
+  background-color: #000;
+  mask-image: var(--url);
+}
+
+a:hover .icon-link-icon {
+  background-color: #f60;
+}
