@@ -1,13 +1,10 @@
-## opcoming events
-
-TBA
-
----
-
-## past events
-
 ![Zakuszka](./assets/banner-o-casey-s.png)
 
-Juli 8, 2023
-**O'casey's**
-_Noordeinde 140, The Hague_
+## Upcoming events
+
+May 9th - Private event.
+June 14th - Grey Space, more info TBA.
+
+
+
+
