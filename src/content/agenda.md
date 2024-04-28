@@ -1,9 +1,13 @@
 ## Upcoming events
 
-May 9th - Private event.
+### May 4th - Rotterdam 
+- Start 20:45
+- Free entry, donations welcome.
+- SAAM - Maaskade 74A
 
+### June 14th - The Hague
+- More info TBA.
 
-June 14th - Grey Space, more info TBA.
 
 
 
