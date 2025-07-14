@@ -1,10 +1,10 @@
-import { Title } from "solid-start";
-import IconLink from "~/components/IconLink";
-import zakuszkaSvg from "../assets/zakuszka-banner.svg";
-import Agenda from "../content/agenda.md";
-import Introduction from "../content/introduction.md";
+import type { Component } from "solid-js";
+import zakuszkaSvg from "./assets/zakuszka-banner.svg";
+import IconLink from "./components/IconLink";
+import Agenda from "./content/agenda.md";
+import Introduction from "./content/introduction.md";
 
-export default function Home() {
+const App: Component = () => {
   if (typeof window !== "undefined") {
     function parallaxEffect() {
       (
@@ -16,7 +16,6 @@ export default function Home() {
 
   return (
     <main>
-      <Title>Zakuszka</Title>
       <img class="banner" src={zakuszkaSvg} alt="Zakuszka Live" />
       <Introduction />
       <Agenda />
@@ -29,4 +28,6 @@ export default function Home() {
       </footer>
     </main>
   );
-}
+};
+
+export default App;
