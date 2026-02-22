@@ -21,7 +21,7 @@ const App: Component = () => {
       <Agenda
                 <IconLink
           href="https://popradar.nl"
-          iconPath="/assets/icons/instagram.svg"
+          iconPath="/assets/Live321_poster_color_v1.2..png"
           label="tmpposter"
         />
       />
