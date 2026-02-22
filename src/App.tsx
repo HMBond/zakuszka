@@ -21,7 +21,7 @@ const App: Component = () => {
       <footer>
         <IconLink
           href="https://www.instagram.com/zakuszka.live/"
-          iconPath="instagram.svg"
+          iconPath="/instagram.svg"
           label="Instagram"
         />
       </footer>
