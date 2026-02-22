@@ -18,7 +18,13 @@ const App: Component = () => {
     <main>
       <img class="banner" src={zakuszkaSvg} alt="Zakuszka Live" />
       <Introduction />
-      <Agenda />
+      <Agenda
+                <IconLink
+          href="https://popradar.nl"
+          iconPath="/assets/icons/instagram.svg"
+          label="tmpposter"
+        />
+      />
       <footer>
         <IconLink
           href="https://www.instagram.com/zakuszka.live/"
