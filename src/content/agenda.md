@@ -3,9 +3,9 @@
 ### 2026-03-21
 #### Jazz fusion night @radarcafé Den Haag
 
-**Doors open:**          20:00 \
-**Anderhalf werk:**    21:00 \
-**Zakuszka:**               21:15 
+**Doors open:**              &emsp; &emsp;  &emsp; &nbsp; _20:00_ \
+**Anderhalf werk:**      &emsp; &emsp; _21:00_ \
+**Zakuszka:**                  &emsp; &emsp;  &emsp;  &emsp; &nbsp; _21:45_
 
 **Address:**     
 Burgemeester Hovylaan 12\
