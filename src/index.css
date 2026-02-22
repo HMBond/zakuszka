@@ -3,19 +3,22 @@ html {
 }
 
 body {
-  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    "Helvetica Neue", sans-serif;
+  font-family:
+    Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   background: url(/background.jpg);
   background-color: black;
   background-repeat: no-repeat;
   background-size: 100%;
+  box-shadow: 0 0 100px 100px black inset;
   margin: 0;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 420px) {
   body {
+    box-shadow: 0 0 20px 20px black inset;
     font-size: 1.8rem;
   }
 }
@@ -24,7 +27,7 @@ main {
   margin: 0 auto;
   display: grid;
   gap: 2rem;
-  width: min(100vw, 1024px);
+  width: min(100vw, 800px);
 }
 
 h1,
@@ -69,6 +72,10 @@ textarea {
   min-height: 10rem;
 }
 
+a {
+  color: oklab(64.902% 0.19976 0.1304);
+}
+
 p {
   margin: 2rem auto;
   line-height: 1.35;
@@ -92,7 +99,7 @@ footer img {
 }
 
 .banner {
-  max-width: min(80vw, 1024px);
+  max-width: min(80vw, 800px);
   margin: 4rem auto;
 }
 
@@ -112,7 +119,7 @@ footer img {
 }
 
 .markdown-body img {
-  max-height: 20rem;
+  max-height: 38rem;
 }
 
 .instagram-media {

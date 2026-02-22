@@ -1,5 +1,4 @@
 import type { Component } from "solid-js";
-import zakuszkaSvg from "./assets/zakuszka-banner.svg";
 import IconLink from "./components/IconLink";
 import Agenda from "./content/agenda.md";
 import Introduction from "./content/introduction.md";
@@ -16,19 +15,13 @@ const App: Component = () => {
 
   return (
     <main>
-      <img class="banner" src={zakuszkaSvg} alt="Zakuszka Live" />
+      <img class="banner" src="zakuszka-banner.svg" alt="Zakuszka Live" />
       <Introduction />
-      <Agenda
-                <IconLink
-          href="https://popradar.nl"
-          iconPath="/assets/Live321_poster_color_v1.2..png"
-          label="tmpposter"
-        />
-      />
+      <Agenda />
       <footer>
         <IconLink
           href="https://www.instagram.com/zakuszka.live/"
-          iconPath="/assets/icons/instagram.svg"
+          iconPath="instagram.svg"
           label="Instagram"
         />
       </footer>
