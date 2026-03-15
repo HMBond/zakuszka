@@ -34,7 +34,7 @@ body {
 main {
   margin: 0 auto;
   display: grid;
-  gap: 8vw;
+  gap: 8vh;
   width: min(100vw, 800px);
   max-width: calc(100% - 4rem);
   padding: 0 2rem;
@@ -110,13 +110,13 @@ footer img {
 }
 
 .banner {
-  max-width: min(50.4vw, 504px);
-  margin: 20vw auto 16vw;
+  max-width: min(50.4vh, 504px);
+  margin: 20vh auto 16vh;
   opacity: 1;
 }
 
 .banner-small {
-  max-width: min(40vw, 350px);
+  max-width: min(40vh, 350px);
   margin: 4rem;
 }
 
