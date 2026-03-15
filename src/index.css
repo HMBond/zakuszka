@@ -14,7 +14,7 @@ body {
   background-color: black;
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 100% auto;
+  background-size: contain;
   background-attachment: fixed;
   box-shadow: 0 0 50px 50px black inset;
   margin: 0;
@@ -34,7 +34,7 @@ body {
 main {
   margin: 0 auto;
   display: grid;
-  gap: 6.5vw;
+  gap: 7.5vw;
   width: min(100vw, 800px);
   max-width: calc(100% - 4rem);
   padding: 0 2rem;
