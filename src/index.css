@@ -111,6 +111,7 @@ footer img {
   max-width: min(56vw, 560px);
   margin: 12rem auto 3rem;
   opacity: 1;
+  transform: translateX(-2rem);
 }
 
 .banner-small {
