@@ -4,18 +4,9 @@ import Agenda from "./content/agenda.md";
 import Introduction from "./content/introduction.md";
 
 const App: Component = () => {
-  if (typeof window !== "undefined") {
-    function parallaxEffect() {
-      (
-        document.querySelector("body") as HTMLBodyElement
-      ).style.backgroundPositionY = `-${window.scrollY * 0.3}px`;
-    }
-    document.addEventListener("scroll", parallaxEffect);
-  }
-
   return (
     <main>
-      <img class="banner" src="zakuszka-banner.svg" alt="Zakuszka Live" />
+      <img class="banner" src="/images/zakuszka-logo-orange.svg" alt="Zakuszka" />
       <Introduction />
       <Agenda />
       <footer>
