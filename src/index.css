@@ -16,7 +16,7 @@ body {
   background-position: top;
   background-size: contain;
   background-attachment: fixed;
-  box-shadow: 0 0 100px 100px black inset;
+  box-shadow: 0 0 50px 50px black inset;
   margin: 0;
   text-align: center;
   font-size: 1.4rem;
@@ -33,7 +33,7 @@ body {
 main {
   margin: 0 auto;
   display: grid;
-  gap: 4.2rem;
+  gap: 8vw;
   width: min(100vw, 800px);
   max-width: calc(100% - 4rem);
   padding: 0 2rem;
@@ -109,9 +109,9 @@ footer img {
 }
 
 .banner {
-  max-width: min(80vw, 800px);
-  margin: 12rem auto 3rem;
-  opacity: 0.8;
+  max-width: min(50.4vw, 504px);
+  margin: 20vw auto 16vw;
+  opacity: 1;
 }
 
 .banner-small {
