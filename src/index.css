@@ -18,7 +18,6 @@ body {
   background-attachment: fixed;
   box-shadow: 0 0 100px 100px black inset;
   margin: 0;
-  padding: 0 2rem;
   text-align: center;
   font-size: 1.4rem;
   overflow-x: hidden;
@@ -36,6 +35,8 @@ main {
   display: grid;
   gap: 4.2rem;
   width: min(100vw, 800px);
+  max-width: calc(100% - 4rem);
+  padding: 0 2rem;
 }
 
 h1,
