@@ -16,7 +16,7 @@ body {
   background-position: top;
   background-size: contain;
   background-attachment: fixed;
-  box-shadow: 0 0 100px 100px black inset;
+  box-shadow: 0 0 50px 50px black inset;
   margin: 0;
   padding: 0 2rem;
   text-align: center;
@@ -36,6 +36,8 @@ main {
   display: grid;
   gap: 4.2rem;
   width: min(100vw, 800px);
+  max-width: calc(100% - 4rem);
+  padding: 0 2rem;
 }
 
 h1,
@@ -110,8 +112,8 @@ footer img {
 .banner {
   max-width: min(56vw, 560px);
   margin: 12rem auto 3rem;
+  margin-left: calc(50% - min(56vw, 560px) / 2 - 2rem);
   opacity: 1;
-  transform: translateX(-2rem);
 }
 
 .banner-small {
