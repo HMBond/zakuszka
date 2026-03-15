@@ -34,7 +34,7 @@ body {
 main {
   margin: 0 auto;
   display: grid;
-  gap: 6vw;
+  gap: 6.5vw;
   width: min(100vw, 800px);
   max-width: calc(100% - 4rem);
   padding: 0 2rem;
