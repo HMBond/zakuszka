@@ -108,9 +108,9 @@ footer img {
 }
 
 .banner {
-  max-width: min(80vw, 800px);
+  max-width: min(64vw, 800px);
   margin: 12rem auto 3rem;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .banner-small {
