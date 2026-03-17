@@ -105,8 +105,8 @@ footer {
 
 footer img {
   display: block;
-  width: 100%;
-  margin-bottom: 2rem;
+  width: 10%;
+  margin: 0 auto 1rem;
 }
 
 .banner {
