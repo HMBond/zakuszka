@@ -105,8 +105,18 @@ footer {
 
 footer img {
   display: block;
-  width: 10%;
+  width: 5%;
   margin: 0 auto 1rem;
+  filter: brightness(0) saturate(100%) invert(47%) sepia(99%) saturate(2006%) hue-rotate(2deg) brightness(101%) contrast(101%);
+}
+
+footer .instagram-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f60;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .banner {
