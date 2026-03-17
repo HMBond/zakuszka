@@ -36,8 +36,8 @@ main {
   display: grid;
   gap: 8vw;
   width: min(100vw, 800px);
-  max-width: calc(100% - 4rem);
-  padding: 0 2rem;
+  max-width: calc(100% - 2rem);
+  padding: 0 1rem;
 }
 
 h1,
