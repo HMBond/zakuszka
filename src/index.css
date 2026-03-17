@@ -49,8 +49,8 @@ h2 {
 }
 
 h1 {
-  font-size: 6rem;
-  margin: 14rem auto;
+  font-size: 2.7rem;
+  margin: 2rem auto;
 }
 
 h2 {
@@ -99,7 +99,7 @@ hr {
 
 footer {
   background: rgba(255, 255, 255, 0.8);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1.5rem;
 }
 
@@ -113,7 +113,7 @@ footer img {
 footer .instagram-link {
   display: block;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #f60;
   text-decoration: none;
   font-weight: bold;
